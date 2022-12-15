@@ -1,0 +1,121 @@
+
+/* Nav*/
+.navegador ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+}
+
+.navegador ul li{
+    display: inline-block;
+}
+
+.navegador ul li a {
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 20px;
+    margin: 0px 0px 60px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+nav {
+    background-color: rgb(210, 210, 210);
+}
+
+footer {
+    background-color: rgb(210, 210, 210);
+}
+/* home*/
+
+.tarjeta{
+    
+    width: 700px;
+    padding: 10px;
+    margin: 10px auto;
+}
+.tarjeta__img {
+    width: 30%;
+}
+
+.tarjeta__titulo {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.tarjeta__btn {
+        display: block;
+        width: 80px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 125, 198);
+        color: white;
+        border: none;
+        text-decoration: none;
+}
+p {
+    color: black;
+    padding: 10px;
+    line-height: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* about me*/
+.titulo_AboutMe {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Parrafo { 
+    margin: 20px;
+    padding: 5px 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* contact*/
+form {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* portfolio*/
+
+.BoxPortfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.titulo_portfolio {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.EjemploPortfolio{
+    width: 250px;
+    padding: 20px;
+}
+.EjemploPortfolio__img {
+    width: 100%;
+}
+
+.EjemploPortfolio__titulo {
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

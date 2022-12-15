@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h1 {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wimi_logo {
+    width: 700px;
+    padding: 10px;
+    margin: 10px 500px;
+
+}
+.wimi_logo img {
+    width: 30%;
+}
+.navegador ul {
+    list-style-type: none;
+
+}
+.navegador ul li{
+    display: inline-block;
+}
+.navegador ul li a {
+    display: block;
+    color:rgb(247, 100, 225);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 50px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
