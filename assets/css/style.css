@@ -31,43 +31,78 @@ nav {
     background-color:#7B89A6;
 }
 
+/* footer*/
+.navfoot ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+}
+.navfoot ul li{
+    display: inline-block;
+}
+
+.navfoot ul li a {
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 20px; 
+    font-size: 20px;
+}
+
+
 footer {
     background-color:#A9C6D9;
+
 }
+
 /* home*/
+
+ .boxindex{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 50px 200px 50px;
+    gap: 10px;
+    grid-template-areas: 
+        "boxindex01 boxindex02"
+        "boxindex01 boxindex03"
+        "boxindex01 boxindex04";
+ }
+
+ .boxindex01 {
+    grid-area: boxindex01;
+
+ }
+ .boxindex02 {
+    grid-area: boxindex02;
+
+ }
+
+ .boxindex03 {
+    grid-area: boxindex03;
+
+ }
+
+ .boxindex04 {
+    grid-area: boxindex04;
+
+ }
+
+ .fotoperfil {
+    width: 300px;
+ }
 
 .mainIndex{
     background-color: #cdd9e1;
 }
 
-.tarjeta{
-    
-    width: 700px;
-    padding: 10px;
-    margin: 0px 10px 0px 10px;
-}
-.tarjeta__img {
-    width: 30%;
-}
-
-.tarjeta__titulo {
+h1 {
+    font-size: 30px;
     color: black;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     font-style: italic;
 }
-.tarjeta__btn {
-        display: block;
-        width: 80px;
-        text-align: center;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 5px;
-        background-color:#7B89A6;
-        color: white;
-        border: none;
-        text-decoration: none;
-}
+
 p {
     color: black;
     padding: 10px;
@@ -124,3 +159,4 @@ p {
     text-align: center;
     font-style: italic;
 }
+
