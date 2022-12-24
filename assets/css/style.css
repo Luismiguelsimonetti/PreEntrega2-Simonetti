@@ -59,6 +59,10 @@ footer {
 
  .boxindex{
     display: grid;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    background-color: #cdd9e1;
     grid-template-columns: 300px 500px;
     grid-template-rows: 50px 200px 50px;
     gap: 10px;
@@ -90,10 +94,6 @@ footer {
  .fotoperfil {
     width: 300px;
  }
-
-.mainIndex{
-    background-color: #cdd9e1;
-}
 
 h1 {
     font-size: 30px;
