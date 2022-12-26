@@ -4,37 +4,38 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  body {
+    background-color: #ffeee4;
+    background-image: url(../img/fondo-pasteleria.png);
+    background-size: cover;
+  }
 h1 {
     color: black;
-    padding: 5px;
     text-align: center;
     font-style: italic;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .wimi_logo {
-    width: 700px;
-    padding: 10px;
-    margin: 10px 500px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 .wimi_logo img {
     width: 30%;
 }
-.navegador ul {
-    list-style-type: none;
 
+.navbar{
+    background-color: #9c5f49 !important;
 }
-.navegador ul li{
-    display: inline-block;
+
+.carousel-home {
+    width: auto;
 }
-.navegador ul li a {
-    display: block;
-    color:rgb(247, 100, 225);
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px 50px;
-    font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.card-home {
+    width: auto;
 }

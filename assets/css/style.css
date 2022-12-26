@@ -36,7 +36,7 @@ nav {
 
 
 /* home*/
-main {
+body {
     background-color: #cdd9e1;
 }
  
@@ -156,6 +156,11 @@ p {
 
 
 /* contact*/
+
+.Formulario {
+    width: 600px;
+    margin: 20px auto;
+}
 
 
 /* portfolio*/
