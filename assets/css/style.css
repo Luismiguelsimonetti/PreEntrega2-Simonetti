@@ -10,8 +10,6 @@ body{
     background-color: #cdd9e1;
 }
 
-    
-
 ul{
     list-style: none;
 }
@@ -24,6 +22,9 @@ a {
     background-color: #7B89A6;
     height: 70px;
     justify-content: end;
+}
+.navegador > .fa-bars{
+    display: none;
 }
 
 .navegador ul {
@@ -44,6 +45,41 @@ a {
     padding: 20px 20px; 
     font-size: 20px;
 } 
+
+@media (max-width:576px){
+    .navegador{
+    justify-content: end;
+    }
+
+    .navegador > .fa-bars{
+        display: block;
+        color: white;
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .navegador > .fa-bars:hover + ul {
+        left: 0;
+    }
+    .navegador ul:hover{
+        left: 0;
+    }
+
+    .navegador ul{
+         position: fixed;
+         flex-direction: column;
+         background-color: #7B89A6;
+         width: 150px;
+         height: 280px;
+         left: -300px;
+         transition: 0.2s;
+         justify-content: center;
+         align-items:initial;
+
+    }
+
+}
+
 
 /* home*/
 
@@ -102,6 +138,31 @@ h1 {
     font-style: italic;
 }
 
+@media (max-width:820px)
+{
+    .boxindex{
+        height: auto;
+        grid-template-columns: 300px;
+        grid-template-rows: 300px 50px 300px 50px;
+        grid-template-areas: 
+        "boxindex01"
+        "boxindex02 "
+        "boxindex03"
+        "boxindex04";
+        padding-top: 50px;
+        gap: 10px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    .boxindex01 .boxindex02 .boxindex03 .boxindex04 {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    
+}
 
 /* about me*/
 .mainAboutMe {
