@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -18,71 +19,96 @@
         </ul>
     </Nav>
     <header>
-        <h2 class="titulo_portfolio">Titulo</H2>
+        <h2 class="titulo_portfolio">Aca va el titulo</H2>
     </header>
     <main>
         <div>
-            <p class="Parrafo">
+            <p class="Parrafo_portfolio">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, et totam ipsam, sed laudantium molestiae rem aperiam harum sint ea accusantium blanditiis quam ratione incidunt! Illum illo odit est assumenda!
             </p>
         </div>
-        <div class="BoxPortfolio">
+        <div class="BoxPortfolio" >
 
-            <div class="boxPort01">    
-                <div class="EjemploPortfolio">
+            <div class="boxPort01" data-aos="fade-up" >    
+                <div class="EjemploPortfolio" >
                     <a href="/wimi/index.html">
-                        <h3  class="EjemploPortfolio__titulo">Pastelria Artesanal</h3>
-                        <img class="EjemploPortfolio__img" src="../img/wimi_logo.jpg" alt="Ejemplo1" >
+                        <div class="imagenes">
+                            <img class="EjemploPortfolio__img" src="../img/wimi_logo.jpg" alt="Ejemplo1" >
+                        </div>
+                        <h3  class="EjemploPortfolio__titulo">Pasteleria Artesanal</h3>
                     </a>
                 </div>
             </div>
 
-            <div class="boxPort02">    
-                <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 2</h3>
+            <div class="boxPort02" data-aos="fade-up">    
+                <div class="EjemploPortfolio" >
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo2">
+                    </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 2</h3>
                 </div>
             </div>
 
-            <div class="boxPort03">  
+            <div class="boxPort03" data-aos="fade-up">  
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 3</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo3">
+                    </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 3</h3>
                 </div>
             </div>
 
-            <div class="boxPort04">      
+            <div class="boxPort04" data-aos="fade-up">      
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 4</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo4">
                 </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 4</h3>
+                </div>
             </div>
 
-            <div class="boxPort05">  
+            <div class="boxPort05" data-aos="fade-up">  
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 5</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo5">
+                    </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 5</h3>
                 </div>
             </div>
 
-            <div class="boxPort06"> 
+            <div class="boxPort06" data-aos="fade-up"> 
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 6</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo6">
+                    </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 6</h3>
                 </div>
             </div>
 
-            <div class="boxPort07">         
+            <div class="boxPort07" data-aos="fade-up">         
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 7</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo7">
                 </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 7</h3>
+                </div>
             </div>
 
-            <div class="boxPort07">         
+            <div class="boxPort08" data-aos="fade-up">         
                 <div class="EjemploPortfolio">
-                    <h3 class="EjemploPortfolio__titulo">Ejemplo 8</h3>
+                    <div class="imagenes">
                     <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo8">
+                </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 8</h3>
+                </div>
+            </div>
+
+            <div class="boxPort09" data-aos="fade-up">         
+                <div class="EjemploPortfolio">
+                    <div class="imagenes">
+                    <img class="EjemploPortfolio__img" src="../img/links.png" alt="Ejemplo9">
+                </div>
+                    <h3 class="EjemploPortfolio__titulo">Ejemplo 9</h3>
                 </div>
             </div>
 
@@ -100,6 +126,15 @@
             <li><a href="./portfolio.html">Portfolio</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+    {
+    duration: 2000,
+    once: true,
+    }
+        );
+      </script>
 </body>
 
 </html>
